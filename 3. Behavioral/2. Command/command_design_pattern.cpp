@@ -62,6 +62,7 @@ public:
         {
             order->execute();
         }
+        orders.clear();
     }
 };
 
@@ -82,6 +83,6 @@ int main()
 
     //execute orders
     zerodha.executeOrders();
-
+    
     return 0;
 }
