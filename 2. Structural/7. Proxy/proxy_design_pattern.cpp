@@ -6,7 +6,7 @@ class Internet{
 public:
     virtual void connect(string url)=0;
 };
-
+ 
 // class for real internet
 class RealInternet : public Internet{
 public:
